@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 import { useSelector, useDispatch } from "react-redux";
-import { increment, incrementAsync, selectCount } from "./productListSlice";
+import { increment, incrementAsync, selectCount } from "../productListSlice";
 // 'use client'
 import {
   Dialog,

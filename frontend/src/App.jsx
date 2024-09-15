@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
 import Cart from './features/cart/Cart'
+import CheckoutPage from './pages/Checkout'
 
 
 import {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path:"/cart",
     element: <CartPage/>
+  },
+  {
+    path:"/checkout",
+    element: <CheckoutPage/>
   }
 ]
 )
